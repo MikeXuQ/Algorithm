@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/桌面/大三上/算法/2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_1b548/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_1b548.dir\build.make CMakeFiles/cmTC_1b548.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/桌面/大三上/算法/2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b548.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_1b548.dir\testCCompiler.c.obj   -c D:\妗岄潰\澶т笁涓奬绠楁硶\2\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: D:\妗岄潰\澶т笁涓奬绠楁硶\2\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_1b548.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_1b548.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_1b548.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/桌面/大三上/算法/2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_1b548/fast' failed
+mingw32-make.exe: *** [cmTC_1b548/fast] Error 2
+
+
